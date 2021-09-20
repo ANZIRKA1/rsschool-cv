@@ -1,15 +1,18 @@
+*{
+  scroll-behavior: smooth;
+}
 body{
-  background-color: lightgray;
+  background-color: rgb(172, 172, 172);
   font-family: Kaisei Tokumin;
   font-style: extra-bold 800;
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 
 .position {
   margin: 20px auto;
   width: 1024px;
-  height: 1010px;
-  background-color:lightskyblue;
+  height: 1500px;
+  background: linear-gradient(55deg, #a8edea, #fed6e3);
   border-radius: 5%;
 }
 
@@ -24,10 +27,18 @@ body{
 
 .right{
   position: relative;
-  bottom: 930px;
+  top: -930px;
   left: 750px;
   width: 25%;
   
+}
+
+#LineName{
+  position: relative;
+  border: 1px solid white;
+  background-color: white;
+  width: 275px;
+  right: 245px;
 }
 
 header{
@@ -96,6 +107,10 @@ a:hover{
   color: black;
 }
 
+.Experience{
+  position: relative;
+  top: 20px;
+}
 .Click{
   text-decoration: underline;
   color: black;
@@ -104,12 +119,24 @@ a:hover{
 .Click:hover{
   color: white;
 }
+
+#GitIcon{
+  position: relative;
+  height: 55px;
+  width: 55px;
+}
+#Figma{
+  position: relative;
+  height: 50px;
+  width: 45px;
+}
 .education{
   padding-top: 15px;
 }
 
 .code{
-  padding-top: 15px;
+  position: relative;
+  bottom: 15px;
 }
 
 #rectangle{
@@ -144,7 +171,7 @@ p{
 
 #MyPhoto {
   position: relative;
-  top: 25px;
+  bottom: 455px;
   right: 27px;
   width: 250px;
   height: 249px;
@@ -164,7 +191,7 @@ p{
   position: relative;
   width: 220px;
   height: 658px;
-  top: 35px;
+  bottom: 470px;
   right: 8px;
   padding-bottom: 15px;
   text-align: right;
@@ -176,6 +203,18 @@ p{
   color: black; 
 }
 
+#HTML{
+  position: relative;
+  right: 15px;
+  height: 60px;
+  width: 56px;
+}
+
+#CSS{
+  height: 60px;
+  width: 53px;
+
+}
 #tools{
   position: relative;
   color: black;
@@ -190,7 +229,7 @@ footer{
   position: relative;
   margin: 20px auto;
   width: 1024px;
-  bottom: 62px;
+  bottom: 92px;
 }
 
 .links{
@@ -208,7 +247,7 @@ footer{
 }
 
 .Git:hover{
-  color: lightskyblue;
+  color: #fed6e3;
 }
 #date{
   position: relative;
@@ -219,10 +258,12 @@ footer{
 
 .RSS{
   position: relative;
-  left: 520px;
+  left: 530px;
 }
 
 .RSS:hover{
   color: lightskyblue;
 }
+
+
 
