@@ -1,0 +1,228 @@
+body{
+  background-color: lightgray;
+  font-family: Kaisei Tokumin;
+  font-style: extra-bold 800;
+  scroll-behavior: auto;
+}
+
+.position {
+  margin: 20px auto;
+  width: 1024px;
+  height: 1010px;
+  background-color:lightskyblue;
+  border-radius: 5%;
+}
+
+.blocks{
+  display: flex;
+}
+
+.left {
+  margin-left: 30px;
+  width: 75%;
+}
+
+.right{
+  position: relative;
+  bottom: 930px;
+  left: 750px;
+  width: 25%;
+  
+}
+
+header{
+  position: relative;
+  top:20px;
+}
+
+h1, h2{
+  color: black;
+}
+
+#Position{
+  color: white;
+}
+
+.menu {
+  position: relative;
+  display: flex;
+  right: 28px;
+}
+.menu li{
+  padding: 10px;
+}
+
+.menu li:hover{
+  color: white;
+}
+
+ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#li1 {
+
+  margin-left: -40px;
+}
+
+#li2{
+  position: relative;
+  bottom: 25px;
+  margin-left: 170px;
+}
+
+#li3{
+  position: relative;
+  bottom: 5px;
+  margin-left: -40px;
+}
+
+#li4{
+  position: relative;
+  bottom: 34px;
+  margin-left: 168px;
+}
+
+a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  bottom: 5px;
+  padding-left: 5px;
+}
+
+a:hover{
+  color: black;
+}
+
+.Click{
+  text-decoration: underline;
+  color: black;
+}
+
+.Click:hover{
+  color: white;
+}
+.education{
+  padding-top: 15px;
+}
+
+.code{
+  padding-top: 15px;
+}
+
+#rectangle{
+  max-width: 500px;
+  height: 238px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+#rectangle:hover{ 
+  border: 1px solid black;
+}
+
+code{
+  position: relative;
+  left: 10px;
+  color:white;
+}
+
+#js:hover{
+  color:black;
+}
+
+h3{
+  color: white;
+}
+
+p{
+  color:  white;
+}
+
+
+#MyPhoto {
+  position: relative;
+  top: 25px;
+  right: 27px;
+  width: 250px;
+  height: 249px;
+  border-radius: 50%;
+  box-shadow: white 0 0 10px;
+  
+}
+
+#skills-text{
+  position: relative;
+  color: white;
+  top: 8px;
+  text-align: center;
+}
+
+#rectangle2{
+  position: relative;
+  width: 220px;
+  height: 658px;
+  top: 35px;
+  right: 8px;
+  padding-bottom: 15px;
+  text-align: right;
+  
+}
+
+#coding{
+  position: relative;
+  color: black; 
+}
+
+#tools{
+  position: relative;
+  color: black;
+}
+
+#languages{
+  position: relative;
+  color: black;
+}
+
+footer{
+  position: relative;
+  margin: 20px auto;
+  width: 1024px;
+  bottom: 62px;
+}
+
+.links{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: white;
+}
+
+.Git{
+  position: relative;
+  left: 200px;
+  color: black;
+  top:25px;
+}
+
+.Git:hover{
+  color: lightskyblue;
+}
+#date{
+  position: relative;
+  top: 8px;
+  left: 360px;
+  color: black;
+}
+
+.RSS{
+  position: relative;
+  left: 520px;
+}
+
+.RSS:hover{
+  color: lightskyblue;
+}
+
