@@ -1,266 +1,184 @@
-*{
-  scroll-behavior: smooth;
-}
-body{
-  background-color: rgb(172, 172, 172);
-  font-family: Kaisei Tokumin;
-  font-style: extra-bold 800;
-  scroll-behavior: smooth;
-}
-
-.position {
-  margin: 20px auto;
-  width: 1024px;
-  height: 1500px;
-  background: linear-gradient(55deg, #a8edea, #fed6e3);
-  border-radius: 5%;
-}
-
-.blocks{
-  display: flex;
-}
-
-.left {
-  margin-left: 30px;
-  width: 75%;
-}
-
-.right{
-  position: relative;
-  top: -930px;
-  left: 750px;
-  width: 25%;
-  
-}
-
-#LineName{
-  position: relative;
-  border: 1px solid white;
-  background-color: white;
-  width: 275px;
-  right: 245px;
-}
-
-header{
-  position: relative;
-  top:20px;
-}
-
-h1, h2{
-  color: black;
-}
-
-#Position{
-  color: white;
-}
-
-.menu {
-  position: relative;
-  display: flex;
-  right: 28px;
-}
-.menu li{
-  padding: 10px;
-}
-
-.menu li:hover{
-  color: white;
-}
-
-ul{
-  text-decoration: none;
-  list-style-type: none;
-}
-
-#li1 {
-
-  margin-left: -40px;
-}
-
-#li2{
-  position: relative;
-  bottom: 25px;
-  margin-left: 170px;
-}
-
-#li3{
-  position: relative;
-  bottom: 5px;
-  margin-left: -40px;
-}
-
-#li4{
-  position: relative;
-  bottom: 34px;
-  margin-left: 168px;
-}
-
-a{
-  position: relative;
-  text-decoration: none;
-  color: white;
-  bottom: 5px;
-  padding-left: 5px;
-}
-
-a:hover{
-  color: black;
-}
-
-.Experience{
-  position: relative;
-  top: 20px;
-}
-.Click{
-  text-decoration: underline;
-  color: black;
-}
-
-.Click:hover{
-  color: white;
-}
-
-#GitIcon{
-  position: relative;
-  height: 55px;
-  width: 55px;
-}
-#Figma{
-  position: relative;
-  height: 50px;
-  width: 45px;
-}
-.education{
-  padding-top: 15px;
-}
-
-.code{
-  position: relative;
-  bottom: 15px;
-}
-
-#rectangle{
-  max-width: 500px;
-  height: 238px;
-  border: 1px solid white;
-  border-radius: 10px;
-}
-
-#rectangle:hover{ 
-  border: 1px solid black;
-}
-
-code{
-  position: relative;
-  left: 10px;
-  color:white;
-}
-
-#js:hover{
-  color:black;
-}
-
-h3{
-  color: white;
-}
-
-p{
-  color:  white;
-}
-
-
-#MyPhoto {
-  position: relative;
-  bottom: 455px;
-  right: 27px;
-  width: 250px;
-  height: 249px;
-  border-radius: 50%;
-  box-shadow: white 0 0 10px;
-  
-}
-
-#skills-text{
-  position: relative;
-  color: white;
-  top: 8px;
-  text-align: center;
-}
-
-#rectangle2{
-  position: relative;
-  width: 220px;
-  height: 658px;
-  bottom: 470px;
-  right: 8px;
-  padding-bottom: 15px;
-  text-align: right;
-  
-}
-
-#coding{
-  position: relative;
-  color: black; 
-}
-
-#HTML{
-  position: relative;
-  right: 15px;
-  height: 60px;
-  width: 56px;
-}
-
-#CSS{
-  height: 60px;
-  width: 53px;
-
-}
-#tools{
-  position: relative;
-  color: black;
-}
-
-#languages{
-  position: relative;
-  color: black;
-}
-
-footer{
-  position: relative;
-  margin: 20px auto;
-  width: 1024px;
-  bottom: 92px;
-}
-
-.links{
-  display: flex;
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-color: white;
-}
-
-.Git{
-  position: relative;
-  left: 200px;
-  color: black;
-  top:25px;
-}
-
-.Git:hover{
-  color: #fed6e3;
-}
-#date{
-  position: relative;
-  top: 8px;
-  left: 360px;
-  color: black;
-}
-
-.RSS{
-  position: relative;
-  left: 530px;
-}
-
-.RSS:hover{
-  color: lightskyblue;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Andrei Skurko</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@800&display=swap" rel="stylesheet"/>
+    <base target="_blank">
+  </head>
+  <body>
+    <div class="position">
+      <div class="blocks">
+        <div class="left">
+          <header>
+            <h1>Andrei Skurko</h1>
+            <hr id="LineName">
+            <h2 id="Position">Beginner Front-end Developer</h2>
+              <nav>
+                <ul class="menu">
+                  <li><a href="#EducationAnchor" target="_side">Education</a></li>
+                  <li><a href="#CodeAnchor" target="_side">Code Example</a></li>
+                  <li><a href="#SkillsAnchor" target="_side">Skills</a></li>
+                </ul>
+              </nav>
+            <section class="contacts">
+              <h2>Contacts:</h2>
+              <ul>
+                <li id="li1">
+                  <img
+                    src="icons/phone-call-auricular-symbol-in-black_icon-icons.com_56483.svg"
+                    alt="Phone"
+                    width="20"
+                    height="20"
+                  />
+                  <a class="ClickContact" href="tel:+375445457199">+ 375 44 545-71-99</a>
+                </li>
+                <li id="li2">
+                  <img
+                    src="icons/mail_email_message_electronic_online_web_icon-icons.com_59986.svg"
+                    alt="E-mail"
+                    width="20"
+                    height="20"
+                  />
+                  <a class="ClickContact" href="mailto: andrewskurko@gmail.com">andrewskurko@gmail.com</a>
+                </li>
+                <li id="li3">
+                  <img
+                    src="icons/telegram_logo_icon_144811.svg"
+                    alt="Telegram"
+                    width="22"
+                    height="22"
+                  />
+                  <a class="ClickContact" href="https://tlgg.ru/@AndrewBambi">AndrewBambi</a>
+                </li>
+                <li id="li4">
+                  <img
+                    src="icons/locate_gps_navigation_pin_point_location_icon-icons.com_59906.svg"
+                    alt="Location"
+                    width="23"
+                    height="23"
+                  />
+                  <a class="ClickContact" href="https://yandex.by/maps/geo/53177019/?ll=27.727503%2C53.882847&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=11"
+                  >
+                    Minsk, Belarus</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </header>
+          <main>
+            <section class="aboutmyself">
+              <h2>About myself:</h2>
+              <p>
+                • In 2021, I received a specialized secondary education in the
+                specialty of a <br />
+                technician-programmer. I had experience in writing programs in
+                <b>C#</b>, website layout,<br />
+                as well as working in <b>Figma</b>. My thesis was the
+                development of an online store.<br />
+                My current goal is to successfully complete courses to acquire
+                knowledge and skills<br />
+                to become a Front-end developer.
+              </p>
+            </section>
+            <section class="Experience">
+              <h2>My experience:</h2>
+              <p>• My graduation project FavBooks is an online bookstore.<br>
+                 For this project, I developed the structure of the HTML document<br>
+                 and the style of the site:</p>
+              <a class="Click" href="https://github.com/ANZIRKA1/FavBooks.by">
+                <img id="GitIcon" src="image/GitHub-Mark-Light-120px-plus.png"
+                 alt="GitHub icon">
+              </a>
+              <p>• My first personal free project in Figma. Perfume company label:</p>
+              <a class="Click" href="https://www.figma.com/file/iBBfbkxjsnfcgL0QGdZi6C/Untitled?node-id=0%3A1">
+                <img id="Figma" src="image/figma-1.svg"
+                alt="Figma icon"
+                />
+              </a>
+            </section>
+            <a name="EducationAnchor"></a>
+            <section class="education">
+              <h2>Education:</h2>
+              <p>
+                • Novopolsky Agricultural and Economic College.<br />Specialty
+                technician-programmer
+              </p>
+            </section>
+            <a name="CodeAnchor"></a>
+            <section class="code">
+              <h2>Code Example:</h2>
+              <div id="rectangle">
+                <code id="js">
+                  function getMiddle(s)<br />
+                  {<br />
+                  if (s.length % 2 === 0) {<br />
+                  return s.substring(s.length / 2 - 1, s.length / 2 +1);<br />
+                  } else {<br />
+                  return s.substring(s.length / 2, s.length / 2 + 1);<br />
+                  }<br />
+                  }<br />
+                  console.log("testing");<br />
+                  console.log("test");<br />
+                </code>
+              </div>
+            </section>
+            <aside class="right">
+              <div class="image">
+                <img
+                  id="MyPhoto"
+                  src="./image/anskurko-13092021-0001.jpg"
+                  alt="My photo"
+                />
+              </div>
+              <a name="SkillsAnchor"></a>
+                <section class="skills">
+                <div id="rectangle2">
+                  <h3 id="skills-text">SKILLS</h3>
+                  <hr
+                    style="border: 1px solid white; background-color: white"
+                  />
+                  <h3 id="coding">Coding:</h3>
+                  <p class="tech">HTML</p>
+                  <p class="tech">CSS</p>
+                  <p class="tech">JavaScript</p>
+                  <p class="tech">C#</p>
+                  <hr
+                    style="border: 1px solid white; background-color: white"
+                  />
+                  <h3 id="tools">Tools&Technologies:</h3>
+                  <p class="tech">Visual Studio</p>
+                  <p class="tech">Visual Studio Code</p>
+                  <p class="tech">Figma</p>
+                  <p class="tech">GIT</p>
+                  <hr
+                    style="border: 1px solid white; background-color: white"
+                  />
+                  <h3 id="languages">Languages:</h3>
+                  <p class="tech">Russian (native)</p>
+                  <p class="tech">English (A1. A2 in process)</p>
+                </div>
+              </section>
+            </aside>
+          </main>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="links">
+        <a class="Git" href="https://github.com/ANZIRKA1">Visit my GitHub</a>
+        <p id="date"><b>&copy;2021</b></p>
+        <a class="RSS" href="https://rs.school/js/">
+          <img
+            src="image/rs_school_js.svg"
+            alt="RSSchool"
+            width="80"
+            height="80"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
