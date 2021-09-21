@@ -5,9 +5,7 @@
     <title>Andrei Skurko</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@800&display=swap"
-      rel="stylesheet"
-    />
+      href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@800&display=swap" rel="stylesheet"/>
   </head>
   <body>
     <div class="position">
@@ -15,8 +13,8 @@
         <div class="left">
           <header>
             <h1>Andrei Skurko</h1>
+            <hr id="LineName">
             <h2 id="Position">Beginner Front-end Developer</h2>
-            <section class="Navigation">
               <nav>
                 <ul class="menu">
                   <li><a href="#EducationAnchor">Education</a></li>
@@ -24,9 +22,9 @@
                   <li><a href="#SkillsAnchor">Skills</a></li>
                 </ul>
               </nav>
-            </section>
             <section class="contacts">
               <h2>Contacts:</h2>
+              <a id="SkillsAnchor"></a>
               <ul>
                 <li id="li1">
                   <img
@@ -44,7 +42,7 @@
                     width="20"
                     height="20"
                   />
-                  <a class="ClickContact" href="mailto: andrewskurko@gmail.com">andrewskurko@gmail.com</a>
+                  <a class="ClickContact" href="mailto:andrewskurko@gmail.com">andrewskurko@gmail.com</a>
                 </li>
                 <li id="li3">
                   <img
@@ -62,10 +60,7 @@
                     width="23"
                     height="23"
                   />
-                  <a class="ClickContact" href="https://yandex.by/maps/geo/53177019/?ll=27.727503%2C53.882847&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=11"
-                  >
-                    Minsk, Belarus</a
-                  >
+                  <a class="ClickContact" href="https://yandex.by/maps/geo/53177019/?ll=27.727503%2C53.882847&source=wizgeo&utm_medium=maps-desktop&utm_source=serp&z=11">Minsk, Belarus</a>
                 </li>
               </ul>
             </section>
@@ -86,15 +81,22 @@
               </p>
             </section>
             <section class="Experience">
-              <h2>My experience</h2>
+              <h2>My experience:</h2>
               <p>• My graduation project FavBooks is an online bookstore.<br>
                  For this project, I developed the structure of the HTML document<br>
-                 and the style of the site.</p>
-              <a class="Click" href="https://github.com/ANZIRKA1/FavBooks.by">Click here</a>
-              <p>• My first personal free project in Figma. Perfume company label</p>
-              <a class="Click" href="https://www.figma.com/file/iBBfbkxjsnfcgL0QGdZi6C/Untitled?node-id=0%3A1">Сlick here</a>
+                 and the style of the site:</p>
+              <a class="Click" href="https://github.com/ANZIRKA1/FavBooks.by" target="_blank">
+                <img id="GitIcon" src="image/GitHub-Mark-Light-120px-plus.png"
+                 alt="GitHub icon">
+              </a>
+              <p>• My first personal free project in Figma. Perfume company label:</p>
+              <a class="Click" href="https://www.figma.com/file/iBBfbkxjsnfcgL0QGdZi6C/Untitled?node-id=0%3A1" target="_blank">
+                <img id="Figma" src="image/figma-1.svg"
+                alt="Figma icon"
+                />
+              </a>
             </section>
-            <a name="EducationAnchor"></a>
+            <a id="EducationAnchor"></a>
             <section class="education">
               <h2>Education:</h2>
               <p>
@@ -102,7 +104,7 @@
                 technician-programmer
               </p>
             </section>
-            <a name="CodeAnchor"></a>
+            <a id="CodeAnchor"></a>
             <section class="code">
               <h2>Code Example:</h2>
               <div id="rectangle">
@@ -128,7 +130,6 @@
                   alt="My photo"
                 />
               </div>
-              <a name="SkillsAnchor"></a>
                 <section class="skills">
                 <div id="rectangle2">
                   <h3 id="skills-text">SKILLS</h3>
@@ -136,24 +137,30 @@
                     style="border: 1px solid white; background-color: white"
                   />
                   <h3 id="coding">Coding:</h3>
-                  <p class="tech">&lt;HTML&gt;</p>
-                  <p class="tech">&lt;CSS&gt;</p>
-                  <p class="tech">&lt;JavaScript&gt;</p>
-                  <p class="tech">&lt;C#&gt;</p>
+                  <ul>
+                  <li class="tech">HTML</li>
+                  <li class="tech">CSS</li>
+                  <li class="tech">JavaScript</li>
+                  <li class="tech">C#</li>
+                  </ul>
                   <hr
                     style="border: 1px solid white; background-color: white"
                   />
                   <h3 id="tools">Tools&Technologies:</h3>
-                  <p class="tech">Visual Studio</p>
-                  <p class="tech">Visual Studio Code</p>
-                  <p class="tech">Figma</p>
-                  <p class="tech">GIT</p>
+                  <ul>
+                  <li class="tech">Visual Studio</li>
+                  <li class="tech">Visual Studio Code</li>
+                  <li class="tech">Figma</li>
+                  <li class="tech">GIT</li>
+                  </ul>
                   <hr
                     style="border: 1px solid white; background-color: white"
                   />
                   <h3 id="languages">Languages:</h3>
-                  <p class="tech">Russian (native)</p>
-                  <p class="tech">English (A1. A2 in process)</p>
+                  <ul>
+                  <li class="tech">Russian (native)</li>
+                  <li class="tech">English (A1. A2 in process)</li>
+                  </ul>
                 </div>
               </section>
             </aside>
@@ -163,9 +170,9 @@
     </div>
     <footer>
       <div class="links">
-        <a class="Git" href="https://github.com/ANZIRKA1">Visit my GitHub</a>
+        <a class="Git" href="https://github.com/ANZIRKA1" target="_blank">Visit my GitHub</a>
         <p id="date"><b>&copy;2021</b></p>
-        <a class="RSS" href="https://rs.school/js/">
+        <a class="RSS" href="https://rs.school/js/" target="_blank">
           <img
             src="image/rs_school_js.svg"
             alt="RSSchool"
