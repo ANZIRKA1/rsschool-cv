@@ -1,268 +1,261 @@
 *{
-  scroll-behavior: smooth;
-}
-body{
-  background-color: rgb(172, 172, 172);
-  font-family: Kaisei Tokumin;
-  font-style: extra-bold 800;
-  scroll-behavior: smooth;
-}
-
-.position {
-  margin: 20px auto;
-  width: 1030px;
-  height: 1500px;
-  background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, 
-  #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-  border-radius: 5%;
-}
-
-.blocks{
-  display: flex;
-}
-
-.left {
-  margin-left: 30px;
-  width: 75%;
-}
-
-.right{
-  position: relative;
-  top: -930px;
-  left: 750px;
-  width: 25%;
+    scroll-behavior: smooth;
+  }
+  body{
+    background-color: rgb(172, 172, 172);
+    font-family: Kaisei Tokumin;
+    font-style: extra-bold 800;
+    scroll-behavior: smooth;
+  }
   
-}
-
-#LineName{
-  position: relative;
-  border: 1px solid white;
-  background-color: white;
-  width: 275px;
-  right: 245px;
-}
-
-header{
-  position: relative;
-  top:20px;
-}
-
-h1, h2{
-  color: black;
-}
-
-#Position{
-  color: white;
-}
-
-.menu {
-  position: relative;
-  display: flex;
-  right: 28px;
-}
-.menu li{
-  padding: 10px;
-}
-
-.menu li:hover{
-  color: white;
-}
-
-ul{
-  text-decoration: none;
-  list-style-type: none;
-}
-
-#li1 {
-
-  margin-left: -40px;
-}
-
-#li2{
-  position: relative;
-  bottom: 25px;
-  margin-left: 170px;
-}
-
-#li3{
-  position: relative;
-  bottom: 5px;
-  margin-left: -40px;
-}
-
-#li4{
-  position: relative;
-  bottom: 34px;
-  margin-left: 168px;
-}
-
-a{
-  position: relative;
-  text-decoration: none;
-  color: white;
-  bottom: 5px;
-  padding-left: 5px;
-}
-
-a:hover{
-  color: black;
-}
-
-.Experience{
-  position: relative;
-  top: 20px;
-}
-.Click{
-  text-decoration: underline;
-  color: black;
-}
-
-.Click:hover{
-  color: white;
-}
-
-#GitIcon{
-  position: relative;
-  height: 55px;
-  width: 55px;
-}
-#Figma{
-  position: relative;
-  height: 50px;
-  width: 45px;
-}
-.education{
-  padding-top: 15px;
-}
-
-.code{
-  position: relative;
-  bottom: 15px;
-}
-
-#rectangle{
-  max-width: 500px;
-  height: 238px;
-  border: 1px solid white;
-  border-radius: 10px;
-}
-
-#rectangle:hover{ 
-  border: 1px solid black;
-}
-
-code{
-  position: relative;
-  left: 10px;
-  color:white;
-}
-
-#js:hover{
-  color:black;
-}
-
-h3{
-  color: white;
-}
-
-p{
-  color:  white;
-}
-
-
-#MyPhoto {
-  position: relative;
-  bottom: 455px;
-  right: 27px;
-  width: 250px;
-  height: 249px;
-  border-radius: 50%;
-  box-shadow: white 0 0 10px;
+  .position {
+    margin: 20px auto;
+    width: 1030px;
+    height: 1500px;
+    background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, 
+    #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    border-radius: 5%;
+  }
   
-}
-
-#skills-text{
-  position: relative;
-  color: white;
-  top: 8px;
-  text-align: center;
-}
-
-#rectangle2{
-  position: relative;
-  width: 220px;
-  height: 658px;
-  bottom: 470px;
-  right: 8px;
-  padding-bottom: 15px;
-  text-align: right;
+  .blocks{
+    display: flex;
+  }
   
-}
-
-#coding{
-  position: relative;
-  color: black; 
-}
-
-#HTML{
-  position: relative;
-  right: 15px;
-  height: 60px;
-  width: 56px;
-}
-
-#CSS{
-  height: 60px;
-  width: 53px;
-
-}
-#tools{
-  position: relative;
-  color: black;
-}
-
-#languages{
-  position: relative;
-  color: black;
-}
-
-footer{
-  position: relative;
-  margin: 20px auto;
-  width: 1024px;
-  bottom: 70px;
-}
-
-.links{
-  display: flex;
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-color: white;
-}
-
-.Git{
-  position: relative;
-  left: 200px;
-  color: black;
-  top:25px;
-}
-
-.Git:hover{
-  color: #fed6e3;
-}
-#date{
-  position: relative;
-  top: 8px;
-  left: 360px;
-  color: black;
-}
-
-.RSS{
-  position: relative;
-  left: 530px;
-}
-
-.RSS:hover{
-  color: lightskyblue;
-}
-
+  .left {
+    margin-left: 30px;
+    width: 75%;
+  }
+  
+  .right{
+    position: relative;
+    top: -930px;
+    left: 750px;
+    width: 25%;
+    
+  }
+  
+  #LineName{
+    position: relative;
+    border: 1px solid white;
+    background-color: white;
+    width: 275px;
+    right: 245px;
+  }
+  
+  header{
+    position: relative;
+    top:20px;
+  }
+  
+  h1, h2{
+    color: black;
+  }
+  
+  #Position{
+    color: white;
+  }
+  
+  .menu {
+    position: relative;
+    display: flex;
+    right: 28px;
+  }
+  .menu li{
+    padding: 10px;
+  }
+  
+  .menu li:hover{
+    color: white;
+  }
+  
+  ul{
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  #li1 {
+  
+    margin-left: -40px;
+  }
+  
+  #li2{
+    position: relative;
+    bottom: 25px;
+    margin-left: 170px;
+  }
+  
+  #li3{
+    position: relative;
+    bottom: 5px;
+    margin-left: -40px;
+  }
+  
+  #li4{
+    position: relative;
+    bottom: 34px;
+    margin-left: 168px;
+  }
+  
+  a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    bottom: 5px;
+    padding-left: 5px;
+  }
+  
+  a:hover{
+    color: black;
+  }
+  
+  .Experience{
+    position: relative;
+    top: 20px;
+  }
+  .Click{
+    text-decoration: underline;
+    color: black;
+  }
+  
+  .Click:hover{
+    color: white;
+  }
+  
+  #GitIcon{
+    position: relative;
+    height: 55px;
+    width: 55px;
+  }
+  #Figma{
+    position: relative;
+    height: 50px;
+    width: 45px;
+  }
+  .education{
+    padding-top: 15px;
+  }
+  
+  .code{
+    position: relative;
+    bottom: 15px;
+  }
+  
+  #rectangle{
+    max-width: 500px;
+    height: 238px;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  
+  #rectangle:hover{ 
+    border: 1px solid black;
+  }
+  
+  code{
+    position: relative;
+    left: 10px;
+    color:white;
+  }
+  
+  #js:hover{
+    color:black;
+  }
+  
+  h3{
+    color: white;
+  }
+  
+  p{
+    color:  white;
+  }
+  
+  
+  #MyPhoto {
+    position: relative;
+    bottom: 455px;
+    right: 27px;
+    width: 250px;
+    height: 249px;
+    border-radius: 50%;
+    box-shadow: white 0 0 10px;
+    
+  }
+  
+  #skills-text{
+    position: relative;
+    color: white;
+    top: 8px;
+    text-align: center;
+  }
+  
+  #rectangle2{
+    position: relative;
+    width: 220px;
+    height: 658px;
+    bottom: 470px;
+    right: 8px;
+    padding-bottom: 15px;
+    text-align: right;
+    
+  }
+  
+  #coding{
+    position: relative;
+    color: black; 
+  }
+  
+  .tech{
+      position: relative;
+      padding-bottom: 20px;
+      color: white;
+  }
+  #tools{
+    position: relative;
+    color: black;
+  }
+  
+  #languages{
+    position: relative;
+    color: black;
+  }
+  
+  footer{
+    position: relative;
+    margin: 20px auto;
+    width: 1024px;
+    bottom: 70px;
+  }
+  
+  .links{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: white;
+  }
+  
+  .Git{
+    position: relative;
+    left: 200px;
+    color: black;
+    top:25px;
+  }
+  
+  .Git:hover{
+    color: #fed6e3;
+  }
+  #date{
+    position: relative;
+    top: 8px;
+    left: 360px;
+    color: black;
+  }
+  
+  .RSS{
+    position: relative;
+    left: 530px;
+  }
+  
+  .RSS:hover{
+    color: lightskyblue;
+  }
+  
